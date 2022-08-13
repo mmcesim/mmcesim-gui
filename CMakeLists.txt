@@ -15,14 +15,21 @@ find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets REQUIRED)
 find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets REQUIRED)
 
 set(PROJECT_SOURCES
-        main.cpp
-        mainwindow.cpp
-        mainwindow.h
-        mainwindow.ui
+    resources/icon.qrc
+    main.cpp
+    mainwindow.cpp
+    mainwindow.h
+    mainwindow.ui
 )
+
+set(MACOSX_BUNDLE_ICON_FILE mmCEsim.icns)
+set(app_icon_macos "${CMAKE_CURRENT_SOURCE_DIR}/resources/fig/logo/mmCEsim.icns")
+set_source_files_properties(${app_icon_macos} PROPERTIES MACOSX_PACKAGE_LOCATION "Resources")
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(mmcesim-gui
+        MACOSX_BUNDLE
+        ${app_icon_macos}
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
     )
@@ -47,7 +54,8 @@ endif()
 target_link_libraries(mmcesim-gui PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
 
 set_target_properties(mmcesim-gui PROPERTIES
-    MACOSX_BUNDLE_GUI_IDENTIFIER my.example.com
+    MACOSX_BUNDLE_BUNDLE_NAME mmCEsim
+    MACOSX_BUNDLE_GUI_IDENTIFIER mmcesim.org
     MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
     MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
 )

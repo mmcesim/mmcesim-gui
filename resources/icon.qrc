@@ -1,0 +1,46 @@
+<RCC>
+    <qresource prefix="/">
+        <file>fig/icon/ASPGenericHandlerFile.svg</file>
+        <file>fig/icon/BuildSolution.svg</file>
+        <file>fig/icon/CloseDocument.svg</file>
+        <file>fig/icon/Console.svg</file>
+        <file>fig/icon/DebugSelection.svg</file>
+        <file>fig/icon/Editor.svg</file>
+        <file>fig/icon/ExportFilter.svg</file>
+        <file>fig/icon/ExportScript.svg</file>
+        <file>fig/icon/F1Help.svg</file>
+        <file>fig/icon/GitHub.svg</file>
+        <file>fig/icon/Log.svg</file>
+        <file>fig/icon/LogError.svg</file>
+        <file>fig/icon/NewDocument.svg</file>
+        <file>fig/icon/OpenAttachment.svg</file>
+        <file>fig/icon/OpenFile.svg</file>
+        <file>fig/icon/OpenFolder.svg</file>
+        <file>fig/icon/OpenLink.svg</file>
+        <file>fig/icon/Redo.svg</file>
+        <file>fig/icon/Report.svg</file>
+        <file>fig/icon/Save.svg</file>
+        <file>fig/icon/SaveAs.svg</file>
+        <file>fig/icon/Search.svg</file>
+        <file>fig/icon/Settings.svg</file>
+        <file>fig/icon/Simulate.svg</file>
+        <file>fig/icon/Undo.svg</file>
+        <file>fig/icon/WebApplication.svg</file>
+        <file>fig/icon/WebURL.svg</file>
+        <file>fig/icon/WelcomeUserGuide.svg</file>
+        <file>fig/icon/WelcomeWebOnline.svg</file>
+        <file>fig/icon/WelcomeWebTutorial.svg</file>
+        <file>fig/img/badge/mmCEsim_badge.png</file>
+        <file>fig/img/logo/mmCEsim_logo_1024.png</file>
+        <file>fig/logo/mmCEsim.iconset/icon_128x128.png</file>
+        <file>fig/logo/mmCEsim.iconset/icon_128x128@2x.png</file>
+        <file>fig/logo/mmCEsim.iconset/icon_16x16.png</file>
+        <file>fig/logo/mmCEsim.iconset/icon_16x16@2x.png</file>
+        <file>fig/logo/mmCEsim.iconset/icon_256x256.png</file>
+        <file>fig/logo/mmCEsim.iconset/icon_256x256@2x.png</file>
+        <file>fig/logo/mmCEsim.iconset/icon_32x32.png</file>
+        <file>fig/logo/mmCEsim.iconset/icon_32x32@2x.png</file>
+        <file>fig/logo/mmCEsim.iconset/icon_512x512.png</file>
+        <file>fig/logo/mmCEsim.iconset/icon_512x512@2x.png</file>
+    </qresource>
+</RCC>
